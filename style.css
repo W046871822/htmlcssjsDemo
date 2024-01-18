@@ -2,7 +2,10 @@ body{
   background-color: antiquewhite;
 }
 p{
-  color:rgb(181, 167, 151);
+  color: rgb(181, 167, 151);
+}
+a {
+  font-size: large;
 }
 
 @media screen and (max-width: 900px) {
