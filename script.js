@@ -1,11 +1,14 @@
-alert("Hello World");
+let lightBtn = document.getElementById("lightBtn");
+let lightBtn = document.getElementById("darkBtn");
 
-button = document.getElementById("button");
-button.addEventListener("click", sayHello);
+lightBtn.addEventListener("click", turnLight);
+lightBtn.addEventListener("click", turnDark);
 
-theText = document.getElementById("someTxt");
+function turnLight(){
+  document.getElementsByTagName("html")[0].setAttribute("data-bs-theme", "light");
+}
 
-function sayHello(){
-  alert('msg');
-  theText.innerHTml = "other text"();
+function turnDark()
+{
+  document.getElementsByTagName("html")[0].setAttribute("data-bs-theme", "dark");
 }
