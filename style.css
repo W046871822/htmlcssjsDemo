@@ -2,7 +2,7 @@ body{
   background-color: antiquewhite;
 }
 p{
-  color:rgb(0, 0, 0);
+  color:rgb(181, 167, 151);
 }
 
 @media screen and (max-width: 900px) {
@@ -10,7 +10,7 @@ p{
     background-color: rgb(82, 93, 51);
   }
   p {
-    color: beige;
+    color: rgb(172, 172, 119);
   }
   #aBtn{
     width:100%;
